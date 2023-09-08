@@ -1,0 +1,57 @@
+body {
+    background-image: url('/img/pexels-scott-webb-305821.jpg');
+  }
+  
+.bg-login-register {
+    background-image: url('/img/pexels-scott-webb-305821.jpg');
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    
+}
+
+
+.loginRegisterForm {
+    max-width: 100%;
+    padding: 2vw;
+    color: white;
+    box-shadow: 0px 2px 4px 1px rgba(60, 149, 148, 1);
+    border-radius: 10px;
+    @media (max-width: 576px){
+      max-width: 90%;
+
+    }
+}
+
+.fa-user {
+    position: absolute;
+    font-size: 24px;
+  }
+
+.form-control {
+    background-color: inherit;
+    color: white;
+}
+
+.form-control:focus {
+    background: inherit;
+    color: white;
+    transition: border-color 0.5s;
+    border-color: rgba(235, 102, 56, 0.8);
+    box-shadow: none;
+    outline: none;
+}
+
+.form-check-input:focus{
+    background-color: inherit;
+    border-color: rgba(235, 102, 56, 0.8);
+    box-shadow: none;
+    outline: none;
+}
+
+.loginRegisterForm .btn-primary {
+    border-color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1vh;
+}

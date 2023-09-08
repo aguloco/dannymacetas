@@ -1,0 +1,294 @@
+  body {
+  background-image: url('/img/pexels-gursharndeep-singh-2898057.jpg');
+}
+  
+
+ /* Estilos base para el carrusel */
+.carousel {
+  max-width: 100%; /* Hacer que el carrusel se ajuste al ancho máximo del contenedor */
+  height: auto; /* Permitir que la altura se ajuste automáticamente según el contenido */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Estilos para el carrusel en pantallas grandes */
+@media (min-width: 992px) {
+  .carousel {
+    width: 70vw; /* Establecer un ancho máximo en pantallas grandes */
+  }
+}
+
+/* Estilos para el carrusel en pantallas medianas */
+@media (max-width: 991px) {
+  .carousel {
+    width: 80vw; /* Establecer un ancho máximo en pantallas medianas */
+  }
+}
+
+/* Estilos para el carrusel en pantallas pequeñas */
+@media (max-width: 576px) {
+  .carousel {
+    width: 90vw; /* Establecer un ancho máximo en pantallas pequeñas */
+  }
+}
+
+
+
+
+
+ /******************** CARRUSEL OLD 
+ .carousel { 
+    
+  width:130vh;
+height:100vh;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+********************/
+  
+
+
+  
+  /******************** SECCIÓN 1  ********************/
+  
+  
+  
+  #titParteA {
+   font-family: 'Josefin Sans', sans-serif;
+font-style: normal;
+font-weight: 1000;
+    color:rgb(230, 255, 250);
+    font-size: 45px;
+    
+  }
+
+
+  #titParteB {
+    font-family: 'Josefin Sans', sans-serif;
+ font-style: normal;
+ font-weight: 40;
+     color:rgb(230, 255, 250);
+     font-size: 40px;
+     
+   }
+
+  #subtParteA {
+    font-family: 'Josefin Sans', sans-serif; 
+    color:rgb(8, 132, 109);
+    font-size: 1.9vw;
+    line-height: 35px;  
+    font-weight: 1000;
+  } 
+
+  #li1 {
+    background-color: #B6BBC3;
+    font-family: 'Josefin Sans', sans-serif; 
+    color: rgb(8, 132, 109);
+    opacity: 0.9;
+  }
+
+  #li2 {
+    background-color: #B6BBC3;
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #FDFAF2;
+    opacity: 0.9;
+  }
+
+  #li3 {
+    background-color: #B6BBC3;
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #FDFAF2;
+    opacity: 0.9;
+  }
+
+  #li4 {
+    background-color: #B6BBC3;
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #FDFAF2;
+    opacity: 0.9;
+  }
+
+#fotosindex {
+  width:100%;
+  height:100%;
+}
+
+/******** CATALOGO ********/
+
+
+/* Estilos para el catálogo */
+
+/* Estilo general para las categorías */
+.category {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #ddd; /* Fondo de la categoría */
+}
+
+/* Estilo para el título de la categoría */
+.category-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(8, 132, 109); /* Color del título de la categoría, adapta el color según tu diseño */
+}
+
+/* Estilo para la lista de productos */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Estilo para cada producto */
+.product {
+  width: calc(33.33% - 10px);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ddd; /* Fondo de cada producto */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del producto */
+  transition: transform 0.2s;
+}
+
+/* Estilo para cuando se pasa el cursor sobre un producto */
+.product:hover {
+  transform: scale(1.10);
+}
+
+/* Estilo para la imagen del producto */
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo para el nombre del producto */
+.product-name {
+  font-size: 18px;
+  margin: 10px 0;
+  color: rgb(8, 132, 109); /* Color del nombre del producto, adapta el color según tu diseño */
+}
+
+/* Estilo para la descripción del producto */
+.product-description {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Estilo para el precio del producto */
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/* Estilo para la imagen del producto */
+.product-image {
+  max-width: 150px; /* Cambia el valor a la medida deseada */
+  height: auto;
+}
+
+
+
+/* Estilo para la imagen agrandada */
+.enlarged-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+
+
+   /* Estilos para la imagen agrandada */
+   .enlarged-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro transparente */
+    cursor: zoom-out; /* Cambia el cursor al pasar sobre la imagen */
+}
+
+
+
+/******** CATALOGO end ********/
+
+
+
+
+
+
+
+
+/******** Video ********/
+
+
+@media (max-width: 576px){
+ #carousel{max-width: 90%};
+
+}
+
+/******************** MEDIA QUERIES ********************/
+
+/******** Smaller smartphones ********/
+
+@media (max-width: 480px) {
+  #titParteA{font-size: 22px} 
+  #subtParteA{font-size: 18px}
+  }
+
+/******** Tablets and larger smartphones ********/
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #titParteA{font-size: 22px} 
+  #subtParteA{font-size: 18px}
+}
+
+/******** Laptops, larger tablets in landscape and small desktops ********/
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  #titParteA{
+    font-size: 22px;
+  } 
+  #subtParteA{
+    font-size: 18px;
+  }
+}
+
+/******** Larger desktops and monitors ********/
+
+@media (min-width: 1280px) {}
+
+
+/* Estilos para el carrusel en pantallas medianas */
+@media (max-width: 768px) {
+  .carousel-caption {
+    display: none; /* Ocultar los textos del carrusel en pantallas medianas */
+  }
+}
+
+/* Estilos para el carrusel en pantallas pequeñas */
+@media (max-width: 576px) {
+  .carousel-item {
+    text-align: center; /* Centrar contenido del carrusel en pantallas pequeñas */
+  }
+
+  .carousel-item img {
+    max-width: 80%; /* Reducir el ancho de las imágenes en pantallas pequeñas */
+  }
+}

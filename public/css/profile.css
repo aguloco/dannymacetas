@@ -1,0 +1,30 @@
+
+.bg-profile    {
+    
+    background-size: cover;
+    position: relative;
+    height: 36vh;
+    
+}
+
+
+.profile    {
+    font-size:20px;
+    margin: 0 auto;
+
+}
+
+#nombre_perfil{
+    color:#72848C;
+    font-size:40px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 600px) 
+{
+ .crearProducto {
+     margin:0 auto;
+  }
+}
+
