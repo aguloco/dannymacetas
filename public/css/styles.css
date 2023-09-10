@@ -6,7 +6,7 @@
  /* Estilos base para el carrusel */
 .carousel {
   max-width: 100%; /* Hacer que el carrusel se ajuste al ancho máximo del contenedor */
-  height: auto; /* Permitir que la altura se ajuste automáticamente según el contenido */
+  height: 90vh; /* Permitir que la altura se ajuste automáticamente según el contenido */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -73,7 +73,7 @@ font-weight: 1000;
  font-style: normal;
  font-weight: 40;
      color:rgb(230, 255, 250);
-     font-size: 40px;
+     font-size: 30px;
      
    }
 
@@ -117,6 +117,52 @@ font-weight: 1000;
   width:100%;
   height:100%;
 }
+
+
+
+/******** SPEECH BUBBLE ********/
+
+.chat {
+    width: 400px;
+}
+.bubble {
+  left:1150px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #ffffff;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+}
+.bubble::before {
+    background-color: #ffffff;
+    content:"\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform: rotate(29deg) skew(-35deg);
+    -moz-transform: rotate(29deg) skew(-35deg);
+    -ms-transform: rotate(29deg) skew(-35deg);
+    -o-transform: rotate(29deg) skew(-35deg);
+    -webkit-transform: rotate(29deg) skew(-35deg);
+    width: 20px;
+}
+.me {
+    float: left;
+    clear: both;
+    margin: 5px 45px 5px 20px;
+}
+.me::before {
+    box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, .4);
+    left: -9px;
+}
+
+
+
+
+
 
 /******** CATALOGO ********/
 
@@ -182,7 +228,7 @@ font-weight: 1000;
 
 /* Estilo para el precio del producto */
 .product-price {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
   color: #333;
 }
