@@ -170,7 +170,32 @@ font-weight: 1000;
     left: -9px;
 }
 
+  /* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  .chat {
+      width: 100%;
+  }
 
+  .bubble {
+      width: 100%;
+      max-width: 100%;
+      margin: 5px 0;
+      text-align: center;
+  }
+
+  .bubble::before {
+      left: 50%;
+      transform: translateX(-5550%);
+  }
+
+  .me {
+      float: none;
+      clear: both;
+      margin: 5px 0;
+      text-align: center;
+      left: 5%;
+  }
+}
 
 
 
@@ -280,6 +305,29 @@ font-weight: 1000;
     background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro transparente */
     cursor: zoom-out; /* Cambia el cursor al pasar sobre la imagen */
 }
+
+
+
+/* Estilo para la imagen del producto en dispositivos móviles */
+@media screen and (max-width: 767px) {
+  .product {
+    width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+    margin-right: 0;
+  }
+  
+  .product-list {
+    flex-direction: column; /* Apila los productos en dispositivos móviles */
+  }
+  
+  .product-image {
+    max-width: 100%; /* Ajusta el ancho de la imagen al ancho de la pantalla */
+    height: auto;
+  }
+}
+
+
+
+
 
 
 
