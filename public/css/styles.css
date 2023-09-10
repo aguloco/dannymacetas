@@ -3,6 +3,17 @@
 }
   
 
+@media screen and (max-width: 768px) {
+  body {
+      background-image: url('/img/pexels-gursharndeep-singh-2898057.jpg');
+      /* Ajusta otros estilos según sea necesario */
+  }
+}
+
+
+
+
+
  /* Estilos base para el carrusel */
 .carousel {
   max-width: 100%; /* Hacer que el carrusel se ajuste al ancho máximo del contenedor */
