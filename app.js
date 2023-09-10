@@ -165,6 +165,14 @@ const products = [
     },
 
     {
+        name: 'Jóven de pelo largo',
+        description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
+        price: 145,
+        category: 'Sexta',
+        image: '/img/tiendaProductos/jovenpelolargo.jpg'
+    },
+
+    {
         name: 'Centro de mesa',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
         price: 540,

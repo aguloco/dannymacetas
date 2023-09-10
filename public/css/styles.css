@@ -17,7 +17,7 @@
  /* Estilos base para el carrusel */
 .carousel {
   max-width: 100%; /* Hacer que el carrusel se ajuste al ancho máximo del contenedor */
-  height: 90vh; /* Permitir que la altura se ajuste automáticamente según el contenido */
+  height: 95vh; /* Permitir que la altura se ajuste automáticamente según el contenido */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -82,7 +82,7 @@ font-weight: 1000;
   #titParteB {
     font-family: 'Josefin Sans', sans-serif;
  font-style: normal;
- font-weight: 40;
+ font-weight: 1000;
      color:rgb(230, 255, 250);
      font-size: 30px;
      
