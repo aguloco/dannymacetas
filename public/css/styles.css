@@ -3,10 +3,10 @@
 }
   
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   body {
-      background-image: url('/img/pexels-gursharndeep-singh-2898057.jpg');
-      /* Ajusta otros estilos según sea necesario */
+    background-image: url('');
+      background-color: rgb(8, 132, 109);
   }
 }
 
