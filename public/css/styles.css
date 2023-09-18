@@ -6,7 +6,7 @@
 @media screen and (max-width: 800px) {
   body {
     background-image: url('');
-      background-color: rgb(8, 132, 109);
+      background-color: #08846d;
   }
 }
 
@@ -22,6 +22,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 
 /* Estilos para el carrusel en pantallas grandes */
 @media (min-width: 992px) {

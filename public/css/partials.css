@@ -27,7 +27,7 @@ body {
 }
 
 .nav-item .nav-link:hover{
-  background-color: rgb(8, 132, 109);
+  background-color: #08846d;
   background-color: rgb(8, 132, 109);
   transition: background-color 0.8s;
 
