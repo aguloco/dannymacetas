@@ -106,6 +106,16 @@ const products = [
         image: '/img/tiendaProductos/hexagonalconicachica.jpg'
     },
 
+    {
+        name: 'Tronquito', 
+        description2: '★ Nuevos diseños',
+        description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
+        
+        price: 165,
+        category: 'Tercera',
+        image: '/img/tiendaProductos/tronquito.png'
+    },
+
 
     {
         name: 'Vintage con tapa',

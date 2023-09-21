@@ -268,6 +268,15 @@ font-weight: 1000;
   color: #666;
 }
 
+/* Estilo para la descripción del producto */
+.product-description2 {
+  font-size: 18px;
+  font-family: 'Roboto Slab',serif;
+  font-weight: 700;
+  color: #c07514;
+}
+
+
 /* Estilo para el precio del producto */
 .product-price {
   font-size: 17px;
