@@ -26,43 +26,12 @@ body {
 
 }
 
-.nav-item .nav-link:hover{
-  background-color: #08846d;
-  background-color: rgb(8, 132, 109);
-  transition: background-color 0.8s;
-
-}
-
-.nav-item button i {
-  padding-top: 3vh;
-  font-size: 25px;
-}
-
-
-.userIMG{
-  width: 4vw;
-  border-radius: 100%;
-}
-
-
-
 .navbar{
   background-color: rgb(8, 132, 109);
   color: #08846d;
   
 }
 
-
-
-
-/******************** CART ********************/
-.cart-image {
-  width: 20px;
-}
-
-.cart-price {
-  color: #39b54a;
-}
 
 /******************** FOOTER ********************/
 

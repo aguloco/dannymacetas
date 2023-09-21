@@ -73,7 +73,14 @@ margin-right: auto;
   
   /******************** SECCIÓN 1  ********************/
   
-  
+  /* Estilo para el botón del menú hamburguesa en dispositivos móviles */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    /* Ajusta la posición izquierda según tus necesidades */
+    left: 105px; /* Por ejemplo, 10px de margen izquierdo */
+  }
+}
+
   
   #titParteA {
    font-family: 'Josefin Sans', sans-serif;
@@ -410,5 +417,13 @@ font-weight: 1000;
 
   .carousel-item img {
     max-width: 80%; /* Reducir el ancho de las imágenes en pantallas pequeñas */
+  }
+}
+
+/* Estilo personalizado para el botón del menú hamburguesa en dispositivos móviles */
+@media (max-width: 767px) {
+  .navbar-toggler {
+    position: absolute;
+    left: 200px; /* Ajusta la posición izquierda según tus necesidades */
   }
 }
