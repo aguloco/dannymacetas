@@ -405,9 +405,11 @@ font-weight: 1000;
 /* Estilos para el carrusel en pantallas medianas */
 @media (max-width: 768px) {
   .carousel-caption {
-    display: none; /* Ocultar los textos del carrusel en pantallas medianas */
+    display: block; /* Ocultar los textos del carrusel en pantallas medianas */
   }
 }
+
+
 
 /* Estilos para el carrusel en pantallas pequeñas */
 @media (max-width: 576px) {
@@ -416,7 +418,7 @@ font-weight: 1000;
   }
 
   .carousel-item img {
-    max-width: 80%; /* Reducir el ancho de las imágenes en pantallas pequeñas */
+    max-width: 100%; /* Reducir el ancho de las imágenes en pantallas pequeñas */
   }
 }
 
