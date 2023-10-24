@@ -15,21 +15,21 @@ const products = [
     {
         name: 'Rectangular chica',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 85,
+        price: 114,
         category: 'Primera',
         image: "/img/tiendaProductos/rectangularchica.jpg"
     },
     {
         name: 'Plato Girasol',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 100,
+        price: 138,
         category: 'Segunda',
         image: '/img/tiendaProductos/platogirasol.jpg'
     },
     {
         name: 'Impronta Escamas',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 135,
+        price: 186,
         category: 'Tercera',
         image: '/img/tiendaProductos/improntaescamas.jpg'
     },
@@ -37,7 +37,7 @@ const products = [
     {
         name: 'Octogonal Grande',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 480,
+        price: 600,
         category: 'Tercera',
         image: '/img/tiendaProductos/octogonalgrande.jpg'
     },
@@ -45,7 +45,7 @@ const products = [
     {
         name: 'Hexagonal Cónica Grande',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 155,
+        price: 210,
         category: 'Tercera',
         image: '/img/tiendaProductos/hexagonalconicagrande.jpg'
     },
@@ -53,7 +53,7 @@ const products = [
     {
         name: 'Cilíndrica Cónica',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 155,
+        price: 216,
         category: 'Tercera',
         image: '/img/tiendaProductos/cilindricaconica.jpg'
     },
@@ -61,7 +61,7 @@ const products = [
     {
         name: 'Impronta Redonda',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 115,
+        price: 156,
         category: 'Tercera',
         image: '/img/tiendaProductos/improntaredonda.jpg'
     },
@@ -69,7 +69,7 @@ const products = [
     {
         name: 'Impronta Rombo',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 130,
+        price: 174,
         category: 'Tercera',
         image: '/img/tiendaProductos/improntarombo.jpg'
     },
@@ -77,7 +77,7 @@ const products = [
     {
         name: 'Facetada',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 120,
+        price: 168,
         category: 'Tercera',
         image: '/img/tiendaProductos/facetada.jpg'
     },
@@ -85,7 +85,7 @@ const products = [
     {
         name: 'Hexagonal Recta Alta',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 155,
+        price: 210,
         category: 'Tercera',
         image: '/img/tiendaProductos/hexagonalrectaalta.jpg'
     },
@@ -93,7 +93,7 @@ const products = [
     {
         name: 'Hexagonal Cónica Baja',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 140,
+        price: 192,
         category: 'Tercera',
         image: '/img/tiendaProductos/hexagonalconicabaja.jpg'
     },
@@ -101,17 +101,17 @@ const products = [
     {
         name: 'Hexagonal Cónica Chica',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 105,
+        price: 138,
         category: 'Tercera',
         image: '/img/tiendaProductos/hexagonalconicachica.jpg'
     },
 
     {
-        name: 'Tronquito', 
+        name: 'Tronco', 
         description2: '★ Nuevos diseños',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
         
-        price: 165,
+        price: 222,
         category: 'Tercera',
         image: '/img/tiendaProductos/tronquito.png'
     },
@@ -120,7 +120,7 @@ const products = [
     {
         name: 'Vintage con tapa',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 165,
+        price: 222,
         category: 'Cuarta',
         image: '/img/tiendaProductos/vintagecontapa.jpg'
     },
@@ -128,7 +128,7 @@ const products = [
     {
         name: 'Caramelera',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 150,
+        price: 156,
         category: 'Cuarta',
         image: '/img/tiendaProductos/caramelera.jpg'
     },
@@ -136,7 +136,7 @@ const products = [
     {
         name: 'Vintage sin tapa',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 90,
+        price: 126,
         category: 'Cuarta',
         image: '/img/tiendaProductos/vintagesintapa.jpg'
     },
@@ -144,7 +144,7 @@ const products = [
     {
         name: 'Caramelera sin tapa',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 115,
+        price: 204,
         category: 'Cuarta',
         image: '/img/tiendaProductos/caramelerasintapa.jpg'
     },
@@ -153,7 +153,7 @@ const products = [
     {
         name: 'Buho con hijito',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 225,
+        price: 312,
         category: 'Quinta',
         image: '/img/tiendaProductos/buhoconhijito.jpg'
     },
@@ -161,15 +161,15 @@ const products = [
     {
         name: 'Buho grande',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 285,
+        price: 396,
         category: 'Quinta',
         image: '/img/tiendaProductos/buhogrande.jpg'
     },
 
     {
-        name: 'Niña con corona (AGOTADO)',
+        name: 'Niña con corona',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 115,
+        price: 186,
         category: 'Sexta',
         image: '/img/tiendaProductos/niñaconcorona.jpg'
     },
@@ -177,7 +177,7 @@ const products = [
     {
         name: 'Jóven de pelo largo',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 165,
+        price: 228,
         category: 'Sexta',
         image: '/img/tiendaProductos/jovenpelolargo.jpg'
     },
@@ -185,7 +185,7 @@ const products = [
     {
         name: 'Centro de mesa',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 565,
+        price: 792,
         category: 'Septima',
         image: '/img/tiendaProductos/centrodemesa.jpg'
     },
@@ -194,7 +194,7 @@ const products = [
     {
         name: 'Gatito',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 145,
+        price: 138,
         category: 'Octava',
         image: '/img/tiendaProductos/gatito.jpg'
     },
@@ -202,7 +202,7 @@ const products = [
     {
         name: 'Sahumerio Vintage',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 105,
+        price: 168,
         category: 'Novena',
         image: '/img/tiendaProductos/sahumeriovintage.jpg'
     },
@@ -210,7 +210,7 @@ const products = [
     {
         name: 'Sahumerio Mandala',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 115,
+        price: 180,
         category: 'Novena',
         image: '/img/tiendaProductos/sahumeriomandala.jpg'
     },
@@ -218,7 +218,7 @@ const products = [
     {
         name: 'Sahumerio Hexagonal',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 95,
+        price: 156,
         category: 'Novena',
         image: '/img/tiendaProductos/sahumeriohexagonal.jpg'
     },
@@ -226,7 +226,7 @@ const products = [
     {
         name: 'Sahumerio Girasol',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 110,
+        price: 174,
         category: 'Novena',
         image: '/img/tiendaProductos/sahumeriogirasol.jpg'
     },
@@ -234,7 +234,7 @@ const products = [
     {
         name: 'Bolita porta sahumerio con agujero',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 25,
+        price: 30,
         category: 'Novena',
         image: '/img/tiendaProductos/bolita.jpg'
     },
@@ -242,7 +242,7 @@ const products = [
     {
         name: 'Sahumerio Flores',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 125,
+        price: 150,
         category: 'Novena',
         image: '/img/tiendaProductos/sahumerioflores.jpg'
     },
@@ -250,7 +250,7 @@ const products = [
     {
         name: 'Sahumerio Estrellitas',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 110,
+        price: 180,
         category: 'Novena',
         image: '/img/tiendaProductos/sahumerioestrellitas.jpg'
     },
@@ -261,14 +261,14 @@ const products = [
     {
         name: 'Flor de loto',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 120,
+        price: 162,
         category: 'Primera',
         image: '/img/tiendaProductos/flordeloto.png'
     },
     {
         name: 'Cara de chino',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 80,
+        price: 108,
         category: 'Primera',
         image: '/img/tiendaProductos/caradechino.png'
     },
@@ -276,7 +276,7 @@ const products = [
     {
         name: 'Plato Estrellitas',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 100,
+        price: 138,
         category: 'Segunda',
         image: '/img/tiendaProductos/platoestrellitas.jpg'
     },
@@ -284,7 +284,7 @@ const products = [
     {
         name: 'Plato Mandala',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 105,
+        price: 144,
         category: 'Segunda',
         image: '/img/tiendaProductos/platomandala.jpg'
     },
@@ -292,7 +292,7 @@ const products = [
     {
         name: 'Plato Mandala Flores con puntas',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 120,
+        price: 168,
         category: 'Segunda',
         image: '/img/tiendaProductos/platomandalafloresconpuntas.jpg'
     },
@@ -302,7 +302,7 @@ const products = [
     {
         name: 'Bandeja Mandala Corazones',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 190,
+        price: 264,
         category: 'Segunda',
         image: '/img/tiendaProductos/bandejamandalacorazones.jpg'
     },
@@ -310,7 +310,7 @@ const products = [
     {
         name: 'Bandeja Mandala Flores',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 180,
+        price: 252,
         category: 'Segunda',
         image: '/img/tiendaProductos/bandejamandalaflores.jpg'
     },
@@ -320,7 +320,7 @@ const products = [
     {
         name: 'Plato Vintage',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 85,
+        price: 114,
         category: 'Segunda',
         image: '/img/tiendaProductos/platovintage.jpg'
     },
@@ -328,7 +328,7 @@ const products = [
     {
         name: 'Plato Hexagonal',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 85,
+        price: 114,
         category: 'Segunda',
         image: '/img/tiendaProductos/platohexagonal.jpg'
     },
@@ -336,7 +336,7 @@ const products = [
     {
         name: 'Plato Bandeja',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 150,
+        price: 210,
         category: 'Segunda',
         image: '/img/tiendaProductos/platobandeja.jpg'
     },
@@ -347,7 +347,7 @@ const products = [
     {
         name: 'Plato Flores',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 90,
+        price: 126,
         category: 'Segunda',
         image: '/img/tiendaProductos/platoflores.jpg'
     },
@@ -357,7 +357,7 @@ const products = [
     {
         name: 'Plato Octogonal Grande',
         description: 'Descripción del Producto 7',
-        price: 250,
+        price: 348,
         category: 'Segunda',
         image: '/img/tiendaProductos/platooctogonalgrande.jpg'
     },
@@ -366,42 +366,42 @@ const products = [
     {
         name: 'Redonda',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 115,
+        price: 162,
         category: 'Primera',
         image: '/img/tiendaProductos/redonda.jpg'
     },
     {
         name: 'Rosa',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 100,
+        price: 138,
         category: 'Primera',
         image: '/img/tiendaProductos/rosa.jpg'
     },
     {
         name: 'Flor de loto Vintage',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 100,
+        price: 138,
         category: 'Primera',
         image: '/img/tiendaProductos/flordelotovintage.png'
     },
     {
         name: 'Tres puntas',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 80,
+        price: 108,
         category: 'Primera',
         image: '/img/tiendaProductos/trespuntas.jpg'
     },
     {
         name: 'Octogonal chica',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 90,
+        price: 120,
         category: 'Primera',
         image: '/img/tiendaProductos/octogonalchica.jpg'
     },
     {
         name: 'Cilíndrica chica',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 85,
+        price: 115,
         category: 'Primera',
         image: '/img/tiendaProductos/cilindricachica.jpg'
     },
