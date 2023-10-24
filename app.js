@@ -128,7 +128,7 @@ const products = [
     {
         name: 'Caramelera',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 156,
+        price: 204,
         category: 'Cuarta',
         image: '/img/tiendaProductos/caramelera.jpg'
     },
@@ -144,7 +144,7 @@ const products = [
     {
         name: 'Caramelera sin tapa',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 204,
+        price: 156,
         category: 'Cuarta',
         image: '/img/tiendaProductos/caramelerasintapa.jpg'
     },
