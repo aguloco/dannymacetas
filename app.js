@@ -149,13 +149,7 @@ const products = [
         image: '/img/tiendaProductos/vintagesintapa.jpg'
     },
 
-    {
-        name: 'Caramelera sin tapa',
-        description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 156,
-        category: 'Cuarta',
-        image: '/img/tiendaProductos/caramelerasintapa.jpg'
-    },
+
 
 
     {
@@ -216,6 +210,23 @@ const products = [
         category: 'Novena',
         image: '/img/tiendaProductos/discosahumerio.jpg'
     },
+
+    {
+        name: 'Cono para Sahumerio',
+        description: 'LOS SAHUMERIOS SE FABRICAN ADICIONANDO ESTA PIEZA A CUALQUIER MODELO DE PLATO. SE ENCARGAN POR SEPARADOS Y VAN PEGADOS O POR PIEZA. El precio del sahumerio completo es la suma de las dos piezas.',
+        price: 62,
+        category: 'Novena',
+        image: '/img/tiendaProductos/conosahumerio.jpg'
+    },
+
+    {
+        name: 'Facetado para Sahumerio',
+        description: 'LOS SAHUMERIOS SE FABRICAN ADICIONANDO ESTA PIEZA A CUALQUIER MODELO DE PLATO. SE ENCARGAN POR SEPARADOS Y VAN PEGADOS O POR PIEZA. El precio del sahumerio completo es la suma de las dos piezas.',
+        price: 83,
+        category: 'Novena',
+        image: '/img/tiendaProductos/facetadosahumerio.jpg'
+    },
+
 
   
 
