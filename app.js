@@ -134,7 +134,7 @@ const products = [
     },
 
     {
-        name: 'Caramelera',
+        name: 'Rayada con tapa',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
         price: 204,
         category: 'Cuarta',
