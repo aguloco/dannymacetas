@@ -27,6 +27,14 @@ const products = [
         image: '/img/tiendaProductos/platogirasol.jpg'
     },
     {
+        name: 'Cuenco Rayado',
+        description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
+        price: 204,
+        category: 'Tercera',
+        image: '/img/tiendaProductos/cuencorayado.jpg'
+    },
+
+    {
         name: 'Impronta Escamas',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
         price: 186,
@@ -194,7 +202,7 @@ const products = [
     {
         name: 'Gatito',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 138,
+        price: 198,
         category: 'Octava',
         image: '/img/tiendaProductos/gatito.jpg'
     },
