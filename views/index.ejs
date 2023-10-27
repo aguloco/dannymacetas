@@ -260,7 +260,21 @@
 </div>
 
 <div class="category">
-  <h2 class="category-title">Porta Sahumerios</h2>
+  <h2 class="category-title">Cuencos</h2>
+  <div class="product-list">
+      <% products.filter(product => product.category === 'Decima').forEach(product => { %>
+          <div class="product">
+              <img src="<%= product.image %>" alt="<%= product.name %>" class="product-image clickable" onclick="showLargeImage('<%= product.image %>')" >
+              <h3 class="product-name"><%= product.name %></h3>
+              <p class="product-description"><%= product.description %></p>
+              <p class="product-price">Precio: $<%= product.price %></p>
+          </div>
+      <% }); %>
+  </div>
+</div>
+
+<div class="category">
+  <h2 class="category-title">Aditamientos para Sahumerios </h2>
   <div class="product-list">
       <% products.filter(product => product.category === 'Novena').forEach(product => { %>
           <div class="product">
