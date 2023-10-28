@@ -29,7 +29,7 @@ const products = [
     {
         name: 'Cuenco Rayado',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 204,
+        price: 156,
         category: 'Decima',
         image: '/img/tiendaProductos/cuencorayado.jpg'
     },
@@ -206,7 +206,7 @@ const products = [
     {
         name: 'Disco para Porta Sahumerio',
         description: 'LOS SAHUMERIOS SE FABRICAN ADICIONANDO ESTA PIEZA A CUALQUIER MODELO DE PLATO. SE ENCARGAN POR SEPARADOS Y VAN PEGADOS O POR PIEZA. El precio del sahumerio completo es la suma de las dos piezas.',
-        price: 48,
+        price: 58,
         category: 'Novena',
         image: '/img/tiendaProductos/discosahumerio.jpg'
     },
@@ -214,7 +214,7 @@ const products = [
     {
         name: 'Cono para Sahumerio',
         description: 'LOS SAHUMERIOS SE FABRICAN ADICIONANDO ESTA PIEZA A CUALQUIER MODELO DE PLATO. SE ENCARGAN POR SEPARADOS Y VAN PEGADOS O POR PIEZA. El precio del sahumerio completo es la suma de las dos piezas.',
-        price: 62,
+        price: 74,
         category: 'Novena',
         image: '/img/tiendaProductos/conosahumerio.jpg'
     },
@@ -222,7 +222,7 @@ const products = [
     {
         name: 'Facetado para Sahumerio',
         description: 'LOS SAHUMERIOS SE FABRICAN ADICIONANDO ESTA PIEZA A CUALQUIER MODELO DE PLATO. SE ENCARGAN POR SEPARADOS Y VAN PEGADOS O POR PIEZA. El precio del sahumerio completo es la suma de las dos piezas.',
-        price: 83,
+        price: 100,
         category: 'Novena',
         image: '/img/tiendaProductos/facetadosahumerio.jpg'
     },
@@ -241,7 +241,7 @@ const products = [
     {
         name: 'Flor Para Porta Sahumerio',
         description: 'LOS SAHUMERIOS SE FABRICAN ADICIONANDO ESTA PIEZA A CUALQUIER MODELO DE PLATO. SE ENCARGAN POR SEPARADOS Y VAN PEGADOS O POR PIEZA. El precio del sahumerio completo es la suma de las dos piezas.',
-        price: 33,
+        price: 42,
         category: 'Novena',
         image: '/img/tiendaProductos/florsahumerio.jpg'
     },
@@ -359,7 +359,7 @@ const products = [
     {
         name: 'Redonda',
         description: '\n RECOMENDACIONES: \n Las macetas o bandejas van en bruto, por esa misma razón deben ser lijadas e impermeabilizadas para protegerlas del polvo y condiciones meteorológicas desfavorables.',
-        price: 162,
+        price: 158,
         category: 'Primera',
         image: '/img/tiendaProductos/redonda.jpg'
     },
